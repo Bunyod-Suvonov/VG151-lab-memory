@@ -1,7 +1,6 @@
-### Memory and Introduction to Codecast
-
-By Bunyod Suvonov
-
+---
+title: Memory and Introduction to Codecast
+author: Bunyod Suvonov
 ---
 
 ### Turing Machine as a Fundamental Computer Architecture
@@ -14,11 +13,11 @@ By Bunyod Suvonov
 
 ---
 
-- 		It is possible to invent a single machine which can be used to compute any computable sequence. If this machine U is supplied with the tape on the beginning of which is written the string of quintuples separated by semicolons of some computing machine M, then U will compute the same sequence as M.
-		- Alan Turing
+-	"It is possible to invent a single machine which can be used to compute any computable sequence. If this machine U is supplied with the tape on the beginning of which is written the string of quintuples separated by semicolons of some computing machine M, then U will compute the same sequence as M."
+						- Alan Turing
 
--		Turing's paper ... contains, in essence, the invention of the modern computer and some of the programming techniques that accompanied it.
-		- Minsky
+-	"Turing's paper ... contains, in essence, the invention of the modern computer and some of the programming techniques that accompanied it."
+						- Minsky
 
 ---
 
@@ -37,6 +36,12 @@ By Bunyod Suvonov
 - //! showMemory(start=272) for heap
 
 - Int variables are initialized to 0 automatically. This is tool specific and variables may not be initialized automatically in other environments. So, it's a good practice to always intialize them with 0 manually
+
+---
+
+### Exercise
+
+- Write a C program to concatenate two strings using pointers
 
 ---
 
