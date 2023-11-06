@@ -34,8 +34,9 @@ int main(){
     for(int i=0; i<8; i++){
         ptr2[i]='a';
     }
-    ptr2 = (char*) realloc(ptr2, 4 * sizeof(char));
-    
+    // ptr2 = (char*) realloc(ptr2, 4 * sizeof(char));
+    free(ptr2);
+
     return 0;
 }
 
